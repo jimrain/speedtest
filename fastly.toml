@@ -1,0 +1,13 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["Jim Rainville"]
+description = "Download/upload speed test at the edge"
+language = "rust"
+manifest_version = 1
+name = "speedtest"
+service_id = "48G8Fzkx71bFKxCzSulFIc"
+
+[local_server]
+
+  [local_server.backends]
